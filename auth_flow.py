@@ -4,7 +4,6 @@ from oauth2client.file import Storage
 from auth_cred import CLIENT_ID as ci
 from auth_cred import CLIENT_SECRET as cs
 import gspread
-import webbrowser
 
 SCOPES = 'https://spreadsheets.google.com/feeds https://docs.google.com/feeds',
 
