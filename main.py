@@ -3,7 +3,7 @@ import auth_flow
 import _url_object
 import webbrowser
 
-OBJ_GOOGLE_NAME = raw_input("Enter Sheets Name: ")
+OBJ_GOOGLE_NAME = input("Enter Sheets Name: ")
 
 OBJ_GOOGLE_AUTH = auth_flow.AUTHENTICATE_FLOW()
 OBJ_GOOGLE_SHEETS = OBJ_GOOGLE_AUTH.create(OBJ_GOOGLE_NAME)
